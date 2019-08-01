@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+}
+
+td{
+    padding: 10px 10px !important;
+}
+.example-icon {
+    padding: 0 14px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+.fields{
+    display: flex;
+    padding: 0px 40px;
+}
+.field{
+    padding: 20px;
+}
+mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+.icon{
+    cursor: pointer;
+}
