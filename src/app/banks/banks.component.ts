@@ -55,7 +55,7 @@ export class BanksComponent implements OnInit {
   }
   getData(element){
     let data = JSON.parse(localStorage.getItem('favorite'));
-    if(data.filter(d=>element.ifsc == d.ifsc).length != 0){
+    if(data && data.filter(d=>element.ifsc == d.ifsc).length != 0){
       return "star";
     }else{
       return "star_border"
